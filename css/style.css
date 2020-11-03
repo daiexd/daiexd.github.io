@@ -5,7 +5,7 @@ html, body {
 body{
     background-color: #222324;
     font-family: arial, helvetica, sans-serif;
-    color: #dfdfdf;
+    color: #149414;
     display: flex;
     flex-direction: column;
 }
@@ -14,7 +14,7 @@ ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    background-color: #222324;
+    background-color:#1a1a1a;
     display: flex;  
     margin: 0;
     justify-content: space-between;
