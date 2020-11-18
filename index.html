@@ -1,166 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>daie</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" 
-type="image/png" 
-href="imgs/NaM.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="dale's website">
+    <meta name="author" content="daiexd">
+    <meta name="keywords" content="daiexd">
+    <script src="https://kit.fontawesome.com/c0a0d9c4cc.js" crossorigin="anonymous"></script>
+    <title>daie</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" 
+      type="image/png" 
+      href="imgs/NaM.png" />
 </head>
-}
 
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #11da21;
-  color: rgb(20, 20, 20);
-}
-
-
-.header h1 {
-  font-size: 40px;
-}
-
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: rgb(32, 29, 29);
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-
-.navbar a.right {
-  float: right;
-}
-
-
-.navbar a:hover {
-  background-color: rgb(32, 31, 31);
-  color: black;
-}
-
-
-.navbar a.active {
-  background-color: #666;
-  color: rgb(32, 31, 31);
-}
-
-
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #3f3a3a;
-  padding: 20px;
-}
-
-
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: rgb(26, 24, 24);
-  padding: 20px;
-}
-
-
-
-.fakeimg {
-  background-color: rgb(29, 27, 27);
-  width: 100%;
-  padding: 20px;
-}
-
-
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: rgb(26, 24, 24);
-}
-
-
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
-</head>
 <body>
+    <header id="main-header">
+        <h1>dale</h1>
+    </header>
 
-<div class="header">
-  <h1>dale
-  </h1>
-  <p>A <b>responsive</b> website created by dale.</p>
-</div>
+    <main class="wrap">
+        <div id="about-me">
+            <h2 class="subtitle"></h2>
+            <p>hey, i'm dale <img class="pajadank" src="imgs/pajadank.png" height="35"> </p>
 
-<div class="navbar">
-  <a href="#" class="active">Home</a>
-  <a href="#">xd</a>
-  <a href="#">xd</a>
-  <a href="#" class="right">xd</a>
-</div>
+        </div>
 
-<div class="row">
-  <div class="side">
-    <h2>about me</h2>
-    <img class="pajadank" src="imgs/pajadank.png" height="60"> </p>
-    <p>hey, im dale xddddd</p>
-    <h3>what else do i write?</h3>
-    <p>xd</p>
-    <img class="pajadank" src="imgs/nam.png" height="35"> </p><br>
-    <div class="nam" src="imgs/zulul.png">Image</div><br>
-    </div>
-    <div class="main">
-    <h2>XD</h2>
-    <h5>Title description,19 nov, 2020</h5>
-    <img class="hack" src="imgs/hack.png" height="200"> </p> 
-    <p>XD</p>
-    <p>lol</p>
-    <br>
-    <h2>XD</h2>
-    <img class="pajadank" src="imgs/pajadank.png" height="300"> </p>
-    <p>XD</p>
-    <p>lol</p>
-  </div>
-</div>
+        <div id="links">
 
-<div class="footer">
-  <h2>dale is dank</h2>
-</div>
+            <ul class="links">
+                <li><a href="https://github.com/daiexd" target="_blank"><i class="fab fa-github fa-7x"></i></i></a></li>
+                <li><a href="https://twitter.com/dale_xdd" target="_blank"><i class="fab fa-twitter fa-7x"></i></i></a></li>
+                <li><a href="https://twitch.tv/daie_" target="_blank"><i class="fab fa-twitch fa-7x"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC0_ART1p_tbrZFSTONUQQLw" target="_blank"><i class="fab fa-youtube fa-7x"></i></a></li>
 
+            
+            </ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        dale was here <img class="dank" src="imgs/dank.png" height="25">
+    </footer>
+    </html>
 </body>
-</html>
